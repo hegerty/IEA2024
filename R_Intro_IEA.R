@@ -130,24 +130,3 @@ summary(lm(y~x)) # regular OLS
 #### Extra topics/customization
 
 
-
-# n=1000
-# x<-rnorm(n,10,3)
-# y<-6000+12*x+1000*rt(1000,5)
-# y<-y/1000
-# reg1<-lm(y~x)
-# summary(reg1)
-# plot(x,y)
-# abline(reg1)
-# z<-y+rnorm(n,2,12)
-# reg2<-lm(y~x+z)
-# summary(reg2)
-# 
-# z2<-y+rnorm(n,2,120)
-# reg2<-lm(y~x+z+z2)
-# summary(reg2)
-# 
-# Regdata<-cbind(y,x,z,z2)
-# head(Regdata)
-# write.csv(Regdata,"TestDataIEA24.csv")
-
