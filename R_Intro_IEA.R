@@ -88,7 +88,7 @@ ttest1$p.value
 
 ## Split y into two halves
 length(y)
-y1<-y[1:length(y)/2] # Specifc values of y
+y1<-y[1:length(y)/2] # Specifoc values of y
 y2<-y[(length(y)/2+1):length(y)]
 mean(y1)
 mean(y2)
