@@ -65,6 +65,7 @@ plot(data$x,data$y)
 plot(data[,c(4,2)]) 
 
 #### 4, Basic statistical operations
+attach(data) # works directly with this dataset
 mean(x)
 sd(x)
 median(x)
