@@ -27,7 +27,7 @@ rbind(c1[-1],c1[-3])
 #### 2. Matrix Operations and subsetting
 
 matrix(1:30,nrow = 5,ncol=6) # Create a matrix (5x6)
-matrix1<-matrix(1:30,nrow = 5,ncol=6) # Store as ab object
+matrix1<-matrix(1:30,nrow = 5,ncol=6) # Store as an object
 t(matrix1) # transpose the matrix
 matrix2<-matrix1 # make a copy
 dim(matrix2)<-c(2,15) # can reshape!
