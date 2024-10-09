@@ -62,7 +62,7 @@ dim(data)[2] # second of rows, columns
 
 # plot data: various identical ways
 plot(data$x,data$y)
-plot(data[,c(4,2)])
+plot(data[,c(4,2)]) 
 
 #### 4, Basic statistical operations
 mean(x)
@@ -70,7 +70,7 @@ sd(x)
 median(x)
 min(x)
 quantile(x,.35) #pick whichever!
-summary(x) # note that previous value vbetween 25 and 50%
+summary(x) # note that previous value is between 25 and 50%
 
 mean(y)
 sd(y)
