@@ -42,7 +42,7 @@ matrix1[-1,] # Omit row 1
 matrix1[2:3,]
 matrix1[,c(1,3,5)]
 
-# subset based on a conditon: > , <, <=, >=
+# subset based on a condition: > , <, <=, >=
 matrix1>7 # returns a logical statement
 sum(matrix1>7) # reads [T,F] as [0,1] 
 matrix1>=7
